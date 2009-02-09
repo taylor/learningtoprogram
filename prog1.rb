@@ -8,7 +8,11 @@ puts "Hi, #{name}. How are you?"
 
 puts "Backwards, that is: #{name.reverse}"
 
-
 print "What is your age? "
 age = gets.chomp
 puts "You are #{age} years old!"
+
+if age > 25
+  puts "If you are a guy you can get an insurance discount!"
+end
+
