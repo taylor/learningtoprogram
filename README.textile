@@ -1,0 +1,60 @@
+This is an introduction to programming.  The material is geared towards
+beginners w/little to no experience.  Material is being added and created as a
+group of teens are learning to program in Ruby.
+
+Here is a walk-thru of program 1
+
+h3. prog1.rb
+
+
+Let's start by asking for a name (using puts, short for put string), getting
+the name (using gets, short for get string)  and printing that name.
+
+commit d8dcf071d06b642fe85bcad36d61ff6a09014e74
+
+Let's use the method print instead of puts for the question because puts adds a newline
+
+commit 4d6317fd05bfb892db3e37eeabb2b89a8e53d8de
+
+That looks better, but let's also use the chomp method to get rid of the
+newline that the gets method grabs
+
+commit 2722175121ce5429f9835eba0b273622f6683b00
+
+Let's add some comments for our code.  Comments allow us to write notes for
+ourselves and other humans to read.  The computer ignores them
+
+
+commit 7d219dfe3aad4410c603be765cabcd124a484ee6
+
+Notice the special syntax inside of the string that allows us to use the
+variable.  You can also do other things in with in those braces.  For instance
+reverse the string using the reverse method
+
+
+commit 00880253e5f85a3d81fca9bb0b41396bba33adf5
+
+Let's ask for age in addition to name.  Ruby allows us to chain methods
+together by passing the results of one to the next.  Since gets returns a
+string we can pass it directly to chomp to remove the newline
+
+commit 8c5e692168188d3ce794750d8962ce56ede7539c
+
+By using an if conditional statement we can decide to do something or not based
+on the outcome of the condition.  Let's check the age before printing
+
+
+commit 0d54b06b7043e4c9acaeac9d73084c31d2ce2943
+
+Oops. The variable age is a string because gets returns a string.  We tried to
+compare a string to a number and that does not make sense so the program
+complains and stops.  We can use the to_i method to change the string into a
+number
+
+commit f97f05fb964cd8fdbb3dcabe3d890604d9e03045
+
+Besides if there are other conditionals like elsif (short for else if) which
+tries another condition as well as else, which is a fall back if nothing else
+matches.  You can also test multiple conditions by using "and" and "or".
+
+commit 24112ec9b2067f60d9514c9b00921b12425d48a0
