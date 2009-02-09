@@ -10,6 +10,7 @@ puts "Backwards, that is: #{name.reverse}"
 
 print "What is your age? "
 age = gets.chomp
+age = age.to_i
 puts "You are #{age} years old!"
 
 if age > 25
