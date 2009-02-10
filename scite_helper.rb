@@ -15,6 +15,6 @@ module Kernel
   end
   def print *args
     origprint *args
-    STDout.flush
+    STDOUT.flush
   end
 end
