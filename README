@@ -4,7 +4,7 @@ group of teens are learning to program in Ruby.
 
 Here is a walk-thru of program 1
 
-h3. prog1.rb
+class/2/io_and_ifelse.rb
 
 
 Let's start by asking for a name (using puts, short for put string), getting
