@@ -1,6 +1,6 @@
 
 
-puts "Enter a List of inteLLigence ScoreS sepera £ed by commas"
+puts "Enter a List of intelligence scores separated by commas"
 str = gets
 puts str
 
@@ -14,17 +14,14 @@ p scores
 sum = 0
 
 scores.each do | score|
-   sum = sum + score
-  
- end
+  sum = sum + score
+end
  
-# scores.each {|x| sum =... }
+puts sum
  
- puts sum
+avg = sum/scores.size.to_f
  
- avg = sum/scores.size.to_f
- 
- puts avg
+puts avg
  
  
  
