@@ -1,0 +1,18 @@
+We will be building a catalog system spread over the classes.  We will begin
+with the ability to add books and list books.
+
+Description of addbook.rb
+  - Show a welcome message and a description when the program starts
+  - Open the book list file for writing
+  - Start a loop
+  - Prompt user to enter a book title or quit
+  - If the user types quit
+    * Then break from the loop
+    * Close the book list file
+  - Prompt the user to enter the author of the book
+  - Output the title and author separated by a pipe '|' - Example: The Frog Splats When Thrown Against the Wall | Ms Japanese
+  - Each book should be on a line by itself
+
+Description of listbooks.rb
+  - Use readlines or read from the File class/object to read all lines and
+    display them.
