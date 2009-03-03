@@ -1,0 +1,19 @@
+During this class we explored Ruby File IO, variables are references, Loops,
+and decided on a project to work on as we move forward.
+
+For File IO we first looked at how to create a new file using File.new() with
+the correct options.   We discussed using puts to send output to the file and
+closing it when done.
+
+We then showed using File.new for opening a file for reading and then using
+gets to retrieve some data from that file.
+
+After that we continued with using File.open with a block as well as the read
+and readlines methods.
+
+Because we are dealing with more than "simple data" assigned to variables such
+as strings and numbers, we went over how variables just point an object and do
+not contain the data themselves.
+
+We showed the Ruby's loop and how it works with blocks as well as how to break
+from the loop.

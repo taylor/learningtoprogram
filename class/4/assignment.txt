@@ -1,6 +1,10 @@
 We will be building a catalog system spread over the classes.  We will begin
 with the ability to add books and list books.
 
+Create 2 files in your students/<YOURNAME>/ directory, addbook.rb and listbooks.rb.
+
+== Description ==
+
 Description of addbook.rb
   - Show a welcome message and a description when the program starts
   - Open the book list file for writing
@@ -16,3 +20,27 @@ Description of addbook.rb
 Description of listbooks.rb
   - Use readlines or read from the File class/object to read all lines and
     display them.
+
+
+== Sharing the new source code ==
+
+Be sure add run
+
+  git add addbook.rb listbooks.rb
+
+to add the files for upload.  After editing the files run
+
+  git commit -m "message about editing or changing addbook" addbook.rb 
+  git commit -m "message about editing or changing listbooks" listbooks.rb
+
+You could also do that in one line like this
+
+  git commit -m "message about editing both addbook and listbooks" addbook.rb listbooks.rb
+
+After commiting all changes when you are ready to upload run
+
+  git pull
+
+to pull any changes that have happened from others and bring your files up to date, then run
+
+  git push
