@@ -22,6 +22,13 @@ Description of listbooks.rb
     display them.
 
 
+== Reference == 
+
+ruby-doc links
+
+	http://www.ruby-doc.org/core/classes/File.html
+	loop method - http://www.ruby-doc.org/core/classes/Kernel.html#M005952
+
 == Sharing the new source code ==
 
 Be sure add run
