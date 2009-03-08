@@ -1,9 +1,14 @@
 list = File.readlines("booklistfile.txt")
+
 list2 = []
 list.each do |line|
   title, author = line.chomp.split("|")
   list2 << [title,author]
 end
+
+# lines above *could* be written simply as:
+# list2 = list.map {|line| line.chomp.split("|") }
+
 puts list
 
 puts "\n\nSorted by author"
