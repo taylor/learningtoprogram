@@ -1,9 +1,14 @@
 puts "Welcome to the Auxiliary Xanadu Edinburgh (AXE) catalog system. "
 
+loop do
+  puts "Enter a book title or quit: "
+  title = gets.chomp
 
-puts "Enter a book title or quit: "
-newbook = gets
+  break if title == "quit"
+  puts "Enter author's name: "
+  author = gets.chomp
 
-File.open("booklistfile.txt","w") do |f|
-  f.puts newbook
+  File.open("booklistfile.txt","a") do |f|
+    f.puts "#{title}|#{author}"
+  end
 end

@@ -1,0 +1,26 @@
+
+1) Ignore the following words at the start of a title when sorting by title
+
+	the, a
+
+2) Update addbooks.rb to save books with loan status 'not loaned' in the third field, and empty string in the 4th field for the loaned date all separated by pipes.
+
+3) Go back and manually edit the book list to have the correct fields  (eg. not loaned and empty string for date field) 
+
+4) Create a new program called loanbook.rb
+  * print welcome message about this prog
+  * start loop.. continue until users quits (figure that out)
+  * Open book list and load books into array. 
+  * split books into book, title, loan status, loan date list and append to new list of all books
+  * SHOW ALL BOOKS with number beside each book (1..N)
+  * prompt to loan book by number
+  * get number from user
+  * Update loan status for book in LIST with string "loan"
+  * Update date book was loaned in LIST with current date (See README about Date)
+  * save list of books to book file overwriting file after each time or after exiting loop
+
+
+
+
+
+
