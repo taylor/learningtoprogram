@@ -1,3 +1,4 @@
+This assignment will continue to enhance the catalog program.
 
 1) Ignore the following words at the start of a title when sorting by title
 
@@ -18,9 +19,3 @@
   * Update loan status for book in LIST with string "loan"
   * Update date book was loaned in LIST with current date (See README about Date)
   * save list of books to book file overwriting file after each time or after exiting loop
-
-
-
-
-
-

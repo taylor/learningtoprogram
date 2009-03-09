@@ -1,0 +1,17 @@
+Reviewed File object and loop.  Used break to leave loop method.
+
+  http://www.ruby-doc.org/core/classes/File.html
+  Loop - http://www.ruby-doc.org/core/classes/Kernel.html#M005952
+
+New stuff learned.
+
+The File object takes the "a" option to append to a file.
+
+Objects like Arrays can use the sort_by method to designate what item will be
+used to sort a list.
+
+  See http://www.ruby-doc.org/core/classes/Enumerable.html#M003151
+
+Learned about the map method and used it on a array
+
+  See http://www.ruby-doc.org/core/classes/Array.html#M002212
