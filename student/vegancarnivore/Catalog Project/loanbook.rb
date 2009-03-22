@@ -9,4 +9,14 @@ lines.each do |line|
 end
 
 puts "\nHere's the booklist:"
-list
+
+list.each_with_index do |book,i|
+  p book
+  title, author, loaned, loan_date = book
+  print "#{i}  #{title}  by #{author}"
+  if loaned != "Not Loaned" 
+    print " - loaned to #{loaned} on #{loan_date}"
+  end
+  puts
+end
+
