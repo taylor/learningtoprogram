@@ -13,7 +13,15 @@ end
 puts lines
 
 puts "\n\nSorted by title"
-list = list.sort_by {|x| x[0] }
+list = list.sort_by do |x|
+   key = x[0].dup
+   if key.index("A ") == 0
+     key.sub!("A ","")
+   elsif key.index("The ") == 0
+     key.sub!("The ","")
+   end
+   key
+end
 
 list.each do |book|
   if book[2] == "Not Loaned"
