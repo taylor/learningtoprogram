@@ -8,7 +8,8 @@ loop do
   puts "Enter author's name: "
   author = gets.chomp
 
+loan_stat = "Not Loaned"
   File.open("booklistfile.txt","a") do |f|
-    f.puts "#{title}|#{author}"
+    f.puts "#{title}|#{author}|#{loan_stat}|"
   end
 end
