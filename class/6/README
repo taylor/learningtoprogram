@@ -1,3 +1,5 @@
+New things learned from class 6
+
 sub and sub!
 
   http://www.ruby-doc.org/core/classes/String.html#M000831
@@ -27,5 +29,3 @@ dup
     Return a copy of an object. This is good when you don't want to
     modify the original object. Objects that are "too simple" cannot
     be duplicated, e.g. integers.
-
-
