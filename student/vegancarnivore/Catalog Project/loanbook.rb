@@ -1,4 +1,4 @@
-puts "Welcome to the Book Loaning Program"
+puts "Welcome to the Book Loaning Program!"
 
 lines = File.readlines("booklistfile.txt")
 
@@ -19,4 +19,3 @@ list.each_with_index do |book,i|
   end
   puts
 end
-

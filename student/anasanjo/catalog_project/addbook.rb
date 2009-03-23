@@ -1,7 +1,7 @@
 puts "Hello Mr. Roboto. Welcome to your library application."
-
+ 
 listBooks = File.new("BookList", "a")
-
+ 
 loop do
   puts "Enter book title. To quit, type 'blueberry jam'"
   str = gets.chomp
@@ -12,7 +12,8 @@ loop do
   puts "What is the author of #{title}?"
   author = gets.chomp
   
-  listBooks.puts "#{title}|#{author}"
+  loanStatus = str == "Not loaned", loanDate = str == ""
+  listBooks.puts "#{title}|#{author}|#{loanStatus}|#{loanDate}"
 end
-
+ 
 listBooks.close
