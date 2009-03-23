@@ -1,0 +1,31 @@
+sub and sub!
+
+  http://www.ruby-doc.org/core/classes/String.html#M000831
+  http://www.ruby-doc.org/core/classes/String.html#M000838
+
+  These are the same except that the ! form modifies the object
+  instead of returning a new one.
+
+  str.sub(s1,s2)   # find s1 inside str and substitute with s2
+
+multi-line block for sort_by
+
+  Any method that takes a block can take either {} or do-end;
+  usually we use the latter for multiple lines. The last expression
+  evaluated in the block will be the "return value" of the block that
+  is used by sort_by or whatever other method.
+
+index
+
+  str.index(s1)
+
+    Return the index (integer) of the first location of s1 within
+    str. If s1 does not appear inside str, it will return nil.
+
+dup
+
+    Return a copy of an object. This is good when you don't want to
+    modify the original object. Objects that are "too simple" cannot
+    be duplicated, e.g. integers.
+
+
