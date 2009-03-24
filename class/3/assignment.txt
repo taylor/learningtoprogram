@@ -11,8 +11,6 @@ Add at least 5  classes before typing quit
 After exiting loop
 Print the 1st, 3rd, and 5th class
 
-
-
 Example of using loop
 
 irb(main):005:0> r=1
