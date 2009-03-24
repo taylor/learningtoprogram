@@ -1,0 +1,24 @@
+In your student folder create a ruby file called array.rb
+
+Print a message to the user asking 
+Create a new array to store a list of classes you take.
+Use loop method to continue until you type quit.
+Get a input from the user (gets) for each class
+Add the class to the new array
+Add at least 5  classes before typing quit
+
+
+After exiting loop
+Print the 1st, 3rd, and 5th class
+
+
+
+Example of using loop
+
+irb(main):005:0> r=1
+=> 1
+irb(main):006:0> loop do
+irb(main):007:1* puts "cow"
+irb(main):008:1> break if r>10
+irb(main):009:1> r+=1
+irb(main):010:1> end
