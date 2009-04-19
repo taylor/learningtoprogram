@@ -1,3 +1,5 @@
+require "date"
+
 puts "Welcome to the Auxiliary Xanadu Edinburgh (AXE) catalog system. "
 
 loop do
@@ -10,6 +12,6 @@ loop do
 
   loan_stat = "Not Loaned"
   File.open("booklistfile.txt","a") do |f|
-    f.puts "#{title}|#{author}|#{loan_stat}|#{{Date.today}}"
+    f.puts "#{title}|#{author}|#{loan_stat}|#{Date.today}"
   end
 end
