@@ -12,7 +12,8 @@ loop do
   puts "What is the author of #{title}?"
   author = gets.chomp
   
-  loanStatus = str == "Not loaned", loanDate = str == ""
+  loanStatus = "Not loaned"
+  loanDate = "#{Time.now.day}-#{Time.now.month}-#{Time.now.year}"
   listBooks.puts "#{title}|#{author}|#{loanStatus}|#{loanDate}"
 end
  
